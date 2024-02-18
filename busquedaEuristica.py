@@ -1,4 +1,5 @@
 import heapq
+
 def a_estrella(grafico, inicio, objetivo, heuristica):
     cola_prioridad=[(0, inicio, [])]
     visitados=set()
